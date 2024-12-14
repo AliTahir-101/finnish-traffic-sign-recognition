@@ -37,6 +37,17 @@ The original SVG files for Finnish traffic signs were sourced from the [Finnish 
 
 ---
 
+## 🖼️ Classification Results Sample
+
+Below is a sample collage of classification results for the **55-class model** on real-world data:
+
+![Classification Results Collage](https://github.com/user-attachments/assets/aa89ec23-1adc-4db2-834c-85e483baf27a)
+
+
+These samples demonstrate the model's ability to accurately classify Finnish traffic signs under various environmental conditions, including different lighting, perspectives, and occlusions.
+
+
+---
 
 ## 🧑‍💻 Notebooks
 
