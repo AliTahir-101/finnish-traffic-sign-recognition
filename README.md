@@ -25,6 +25,26 @@ This project explores the use of synthetic data, transfer learning, and advanced
 
 ---
 
+## 🖼️ Synthetic Dataset Previews
+
+### 1️⃣ Cropped Images for Classifiers
+Below is a preview of the **synthetic dataset of cropped images** used to train classification models:
+
+![Cropped Dataset Preview](https://github.com/user-attachments/assets/d95b54f2-ca87-4e82-8e8b-d66e85140efd)
+
+These images represent traffic signs with transparent backgrounds generated from SVG files, augmented for diverse angles and variations.
+
+---
+
+### 2️⃣ YOLO Dataset with Bounding Boxes
+Here’s a sample collage from the **YOLO dataset** showcasing labeled bounding boxes for traffic signs:
+
+![YOLO Dataset Preview](https://github.com/user-attachments/assets/3f38a2ac-d2e7-46d7-9a3e-bd20630a08dc)
+
+This dataset includes realistic scenes with traffic signs, annotated with bounding boxes for object detection.
+
+---
+
 ## 🔄 How to Create a Synthetic Dataset
 
 If you're interested in creating a synthetic dataset from SVG files, I’ve provided a guide in a separate documentation file. This guide covers the process of generating a transparent background dataset using Blender and augmenting it with realistic backgrounds for machine learning model training.
