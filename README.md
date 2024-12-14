@@ -41,9 +41,31 @@ Check out the YOLOv11 vs YOLOv11 + EfficientNetB0 comparison video to see the mo
 
 ---
 
-## 📈 Results
+## 📊 Results
 
-To be shared.
+| **Metric**                     | **Custom CNN (38 Classes – Old Dataset)** | **EfficientNetB0 (38 Classes – New Dataset)** | **EfficientNetB0 (55 Classes – New Dataset)** | **YOLOv11 (Bounding Box Detection)** |
+|--------------------------------|-------------------------------------------|-----------------------------------------------|-----------------------------------------------|----------------------------------------|
+| **Dataset Images/Class**       | 720                                       | 2276                                          | 2276                                          | 2276                                   |
+| **Training**                   |                                           |                                               |                                               |                                        |
+| Epochs                         | 35                                        | 15                                            | 25                                            | 30                                     |
+| Accuracy                       | 99.81%                                    | 99.79%                                        | 99.21%                                        | Final Training Box Loss: 0.2324       |
+| Loss                           | 0.1403                                    | 0.0064                                        | 0.0148                                        | Final Training Class Loss: 0.2354     |
+|                               |                                           |                                               |                                               | Final Training DFL Loss: 0.7698       |
+| **Validation**                 |                                           |                                               |                                               |                                        |
+| Accuracy                       | 99.87%                                    | 99.94%                                        | 98.71%                                        | Final Validation Precision: 0.9515    |
+| Loss                           | 0.0122                                    | 0.0018                                        | 0.0294                                        | Final Validation Recall: 0.9975       |
+| F1 Score                       | 1.00                                      | 1.00                                          | 0.99                                          | Final Validation mAP@50: 0.9745       |
+| Precision                      | 1.00                                      | 1.00                                          | 0.99                                          | Final Validation mAP@50-95: 0.9587    |
+| Recall                         | 1.00                                      | 1.00                                          | 0.99                                          | Validation Box Loss: 0.2071           |
+|                               |                                           |                                               |                                               | Validation Class Loss: 0.2408         |
+|                               |                                           |                                               |                                               | Validation DFL Loss: 0.7611           |
+| **Testing (Synthetic)**        |                                           |                                               |                                               |                                        |
+| Accuracy                       | 99.82%                                    | 99.90%                                        | 98.71%                                        |                                        |
+| **Testing (Real-World)**       |                                           |                                               |                                               |                                        |
+| Accuracy                       | 35.90%                                    | 94.87%                                        | 100.00%                                       |                                        |
+| Accuracy (All 55 Classes)      | ---                                       | ---                                           | 96.30%                                        |                                        |
+| **Observations**               | Limited generalization capability         | Significant improvement over Custom CNN, achieving excellent generalization capabilities. | Transfer learning significantly improved performance across all datasets. | The YOLOv11 model demonstrates robust performance with high precision, recall, and mAP values, indicating effective bounding box detection under various conditions. |
+
 
 ---
 
