@@ -65,7 +65,7 @@ Check out the YOLOv11 vs YOLOv11 + EfficientNetB0 comparison video to see the mo
 | Accuracy                       | 35.90%                                    | 94.87%                                        | 100.00%                                       |                                        |
 | Accuracy (All 55 Classes)      | ---                                       | ---                                           | 96.30%                                        |                                        |
 | **Observations**               | Limited generalization capability         | Significant improvement over Custom CNN, achieving excellent generalization capabilities. | Transfer learning significantly improved performance across all datasets. | The YOLOv11 model demonstrates robust performance with high precision, recall, and mAP values, indicating effective bounding box detection under various conditions. |
-
+| **Room for Growth**            | ---                                       | - EfficientNetB0 could be improved with images of varying resolutions to better handle small and large signs. Current training on 100x100 images limits generalization to different sizes. | - EfficientNetB0 performance could be enhanced by introducing more diverse augmentations and additional variations in real-world scenarios. | - YOLOv11 could be trained further to improve generalization. Expanding training datasets with more diversity and fine-tuning hyperparameters could yield better results. Resource and time constraints limited these optimizations. |
 
 ---
 
