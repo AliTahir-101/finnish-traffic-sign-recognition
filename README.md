@@ -25,6 +25,20 @@ This project explores the use of synthetic data, transfer learning, and advanced
 
 ---
 
+## 🔄 How to Create a Synthetic Dataset
+
+If you're interested in creating a synthetic dataset from SVG files, I’ve provided a guide in a separate documentation file. This guide covers the process of generating a transparent background dataset using Blender and augmenting it with realistic backgrounds for machine learning model training.
+
+👉 **[Read the full guide here](./how_to_create_synthetic_dataset.md)**
+
+This guide includes:
+- Setting up Blender and running the provided Python script for SVG processing.
+- Using a Python script to create a final augmented dataset with real-world backgrounds.
+- Tips and notes to customize the scripts and optimize your dataset creation process.
+
+
+---
+
 ## 🖼️ Dataset Visualization
 
 Below is a collage of the **55 Finnish Traffic Sign Classes** used to create the dataset and train the models. These include the original 38 classes and the newly added 17 classes for a total of 55:
