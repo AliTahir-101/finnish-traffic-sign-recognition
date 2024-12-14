@@ -25,6 +25,19 @@ This project explores the use of synthetic data, transfer learning, and advanced
 
 ---
 
+## 🖼️ Dataset Visualization
+
+Below is a collage of the **55 Finnish Traffic Sign Classes** used to create the dataset and train the models. These include the original 38 classes and the newly added 17 classes for a total of 55:
+
+![Collage of 55 Finnish Traffic Sign Classes](https://github.com/user-attachments/assets/ee67cf75-1b3e-40f2-ac84-761647601655)
+
+### 🔗 Original SVG Files
+
+The original SVG files for Finnish traffic signs were sourced from the [Finnish Traffic Agency GitHub Repository](https://github.com/finnishtransportagency/liikennemerkit/tree/master/collections/new_signs/svg). These files were processed using **Blender** and **OpenCV** to generate synthetic datasets with realistic augmentations, including lighting, motion blur, and various environmental conditions.
+
+---
+
+
 ## 🧑‍💻 Notebooks
 
 1. [**`01_finnish_traffic_sign_classifier_38_classes_jhoonas_dataset_99_36_cnn.ipynb`**](./notebooks/01_finnish_traffic_sign_classifier_38_classes_jhoonas_dataset_99_36_cnn.ipynb): Covers preprocessing, training, and testing using the 38-class dataset and a custom CNN model.
