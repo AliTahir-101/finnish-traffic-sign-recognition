@@ -19,7 +19,7 @@ This project explores the use of synthetic data, transfer learning, and advanced
 ### 1. 🖼️ Cropped Traffic Sign Dataset
 - [**38 Classes**](https://drive.google.com/file/d/1YFE1j81nrWktzH0hisaKpJc9ig6UOZqT/view?usp=sharing): A synthetic dataset of cropped traffic sign images representing 38 Finnish traffic signs.
 - [**55 Classes**](https://drive.google.com/file/d/1yc9oF-qecFO9CkpS3YrlC7WyCq4XU8Ml/view?usp=sharing): An extended dataset including additional traffic sign types for a total of 55 classes.
-
+- [**55 Classes with Transparent Backgrounds**](https://drive.google.com/file/d/1EgoCKEISKd-_xttAX4wILchWsajzQeMz/view?usp=sharing): A synthetic dataset with transparent backgrounds to facilitate further research and synthetic data creation. These images can be directly used for data augmentation or inserted into real-world scenes using tools like OpenCV or Blender.
 ### 2. 📏 YOLO Dataset
 - Images with bounding boxes for real-time traffic sign detection.
 
