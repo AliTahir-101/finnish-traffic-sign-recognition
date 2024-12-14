@@ -34,7 +34,9 @@ This project explores the use of synthetic data, transfer learning, and advanced
 ---
 
 ## 🎥 Demo Video
-Check out the [YOLOv11 vs YOLOv11 + EfficientNetB0 comparison video](./demo/yolo_comparison_demo.mp4) to see the models in action! 🚦📹
+Check out the YOLOv11 vs YOLOv11 + EfficientNetB0 comparison video to see the models in action! 🚦📹
+https://github.com/user-attachments/assets/3cb21a0c-3d02-41fe-a075-0853dedd4f8b
+
 
 ---
 
