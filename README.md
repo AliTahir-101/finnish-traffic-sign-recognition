@@ -26,8 +26,6 @@ This project explores the use of synthetic data, transfer learning, and advanced
 ---
 
 ## 🖼️ Synthetic Dataset Previews
-<video src='https://github-production-user-asset-6210df.s3.amazonaws.com/76158157/397943738-d8c9acb4-2a82-4aa1-aea5-16f25a07a178.mp4' width=640/></video>
-
 ### 1️⃣ Cropped Images for Classifiers
 Below is a preview of the **synthetic dataset of cropped images** used to train classification models:
 
