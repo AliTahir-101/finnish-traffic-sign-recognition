@@ -41,6 +41,10 @@ This guide walks you through the process of creating a synthetic dataset using *
 
 ---
 
+## Blender Animation Demo
+<video src='https://github-production-user-asset-6210df.s3.amazonaws.com/76158157/397943738-d8c9acb4-2a82-4aa1-aea5-16f25a07a178.mp4' width=640/></video>
+
+
 ### 2️⃣ **Create the Synthetic Dataset with Realistic Backgrounds**
 
 1. **Set Up the Background Augmentation Script**:
